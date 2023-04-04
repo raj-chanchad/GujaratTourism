@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+*{
+        padding: 0;
+        margin: 0ch;
+      }
+
+     body{
+        font-family: 'Poppins', sans-serif;;
+      }
+
+     .header{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #68D9C0;
+      }
+
+     .logo{
+        width: 100px;
+      }
+
+      .login{
+        margin-right: 15px;
+      }
+
+     .nav {
+        text-align: right;
+        color: white;
+        flex: 1;
+        justify-content: space-evenly;
+        background-color: rgb#68D9C0(142, 136, 148);
+        
+      }
+
+      nav ul{
+        display: inline-block;
+        list-style-type: none;
+        text-decoration :none;
+      }
+
+     nav ul li{
+        display: inline-block;
+        margin: 20px;
+        color: white;
+        font-size: 20px;
+     }
+
+     nav h1{
+        display: inline-block;
+        text-align: left;
+        margin: 20px;
+     }
+
+     a{
+       text-decoration: none;
+       color: #555;
+      }
+
+     p{
+       color: #555;
+      }
+
+.product{
+    background: rgba(0, 151, 19, 0.1);
+    margin-left: 200px;
+    margin-top: 500px;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 1120px;
+    border: 5px solid gray;
+    justify-content: center;
+
+}
+
+.photo-main{
+   display: block;
+   margin: 10px;
+   width: 500px;
+   height: 500px;
+   overflow: hidden;
+}
+
+.photo-main img{
+    
+    width: 500px;
+    display: block;
+}
+
+.product__info{
+   align-self: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+.item-button{
+        margin-left: 90px;
+        color: white;
+        background-color: #68D9C0;
+        padding: auto;
+        padding: 10px;    
+        border-radius: 20px;
+        text-decoration: double;
+        margin-bottom: 50px;
+        margin-top: 25px;
+      }
+
+.item-button:hover {
+        color: #68D9C0;
+        font-weight: bold;
+        background-color: white;
+     }
+
+.singlebutton{
+    align-self: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    letter-spacing: .05em;
+}
+.title h1{
+    letter-spacing: 0.025em;
+    color: inherit;
+    font-weight: 300;
+    font-size: 20px;
+}
+.description h3{
+    color: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.description ul{
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .2mm;
+    margin-right: 10px;
+}
+.price{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+      .bg-container img {
+  vertical-align: middle;
+  top: -10px;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+/* Slideshow container */
+.bg-container {
+  top: -80px;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.main{
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(135,206,250,0.4);
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  max-width: 1550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+ul li{
+  display: inline;
+}
+
+.list{
+  position: fixed;
+  display: block;
+  top: 9px;
+  float: left;
+}
+
+.webname{
+  color: #fff;
+  position: relative;
+  float: left;
+  top: 0px;
+  margin-left: 115px;
+  font-style: Rage Italic;
+  
+}
+
+.list li.logo img{
+  position: relative;
+  float: left;
+  top: -17px;
+  margin-left: 60px;
+  margin-right: 35px; 
+}
+
+.list2{
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.list2 li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.9s ease;
+}
+
+.list2 li a:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+
+.list2 li.active-menu a{
+  background-color: #fff;
+  color: #000;
+}
+    
+</style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>   
+          <div class="main">
+              <ul>
+                <ul class="list">
+                    <li class="logo"><a href="home.html"><img src="logo.png" alt="Logo" style="width:40px;height:40px"></a></li> 
+                </ul>
+  
+                <div class="webname">
+                  <h4>Gujarat Tourism</h4>
+                </div>
+                
+                <ul class="list2">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="touristplace.html">Tourist Places</a></li>
+                  <li><a href="virtual.html">Virtual Tour Guide</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <br>
+  <br>
+
+
+    <!---product 1--->
+
+
+    <section class="product" id="1">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 1.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info" >
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+                <div class="price">
+                ₹ <span style="font-size: larger;">112999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product 2--->
+
+
+    <section class="product" id="2">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 2.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">149999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+    
+
+    <!---product 3--->
+
+
+    <section class="product" id="3">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 3.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">39999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product 4--->
+
+
+    <section class="product" id="4">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 4.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">39990</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product 5--->
+
+
+    <section class="product" id="5">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 5.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">4999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product6--->
+
+
+    <section class="product" id="6">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 6.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">49999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product 7--->
+
+
+    <section class="product" id="7" style="margin-bottom: 200px">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 7.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">999</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!---product 8--->
+
+
+    <section class="product" id="8" style="margin-bottom: 200px">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="product 8.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="product__info">
+            
+            <div class="description">
+                <h3>Detailes</h3>
+                
+
+                <div class="price">
+                ₹ <span style="font-size: larger;">1490</span>
+                </div>
+                    
+            </div>
+            <a href="buy.html">
+            <div class="singlebutton">
+                <button class="item-button singlebutton" id="button1">Book now</button>
+            </div>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
